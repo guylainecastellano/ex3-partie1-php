@@ -1,15 +1,25 @@
 <?php
-$km = 'new number'; //déclaration variable
+$km = 1; //déclaration variable
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <title>ex1 partie1 php</title>
+  <title>ex3 partie1 php</title>
 </head>
 <body>
-  <?php
-  echo 'number'; //initialiser la valeur nombre
-  ?>
+  <p><?php echo $km; ?></p>
+  <p>
+    <?php
+    $km = 3;
+    echo $km;
+    ?>
+  </p>
+  <p>
+    <?php
+    $km = 125;
+    echo $km;
+    ?>
+  </p>
 </body>
 </html>
